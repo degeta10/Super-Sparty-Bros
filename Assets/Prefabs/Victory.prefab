@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4978280791391454}
   - component: {fileID: 212671652503100468}
   - component: {fileID: 95715407103874854}
+  - component: {fileID: 114216495428630578}
   m_Layer: 0
   m_Name: Victory
   m_TagString: Untagged
@@ -58,6 +59,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114216495428630578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1582556188985612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37252563ef687646b3bf843d693e95a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taken: 0
+  explosion: {fileID: 1448966722825356, guid: 5d912933a61682b4aafefb79408bdb6f, type: 2}
 --- !u!212 &212671652503100468
 SpriteRenderer:
   m_ObjectHideFlags: 1
