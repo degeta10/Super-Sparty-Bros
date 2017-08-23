@@ -1179,6 +1179,10 @@ Prefab:
       propertyPath: m_Name
       value: Moving Enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4506753080219454, guid: e8b6a4b2340311d42b94f174b8c9b633, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.56
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8b6a4b2340311d42b94f174b8c9b633, type: 2}
   m_IsPrefabParent: 0
