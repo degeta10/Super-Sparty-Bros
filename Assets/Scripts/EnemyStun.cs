@@ -10,6 +10,9 @@ public class EnemyStun : MonoBehaviour {
 		{
 			// tell the enemy to be stunned
 			this.GetComponentInParent<Enemy>().Stunned();
+
+			//make player bounce off enemy
+			other.gameObject.GetComponent<CharacterController2D>().EnemyBounce();
 		}
 	}
 }

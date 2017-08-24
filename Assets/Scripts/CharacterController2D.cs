@@ -280,4 +280,8 @@ public class CharacterController2D : MonoBehaviour {
 		_transform.position = spawnloc;
 		_animator.SetTrigger("Respawn");
 	}
+
+	public void EnemyBounce(){
+		DoJump ();
+	}
 }
